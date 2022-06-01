@@ -1,6 +1,6 @@
 {
   "name": "openioe",
-  "version": "1.0.42",
+  "version": "1.0.39",
   "description": "OpenIOE",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,6 @@
   },
   "author": {
     "name": "ZIYAN WEI"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Rookior/openioe.git"
   },
   "license": "ISC",
   "keywords": [
