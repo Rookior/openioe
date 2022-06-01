@@ -1,0 +1,16 @@
+{
+  "name": "openioe",
+  "version": "1.0.35",
+  "description": "OpenIOE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "ZIYAN WEI"
+  },
+  "license": "ISC",
+  "keywords": [
+    "OpenIOE 万物互联"
+  ]
+}
