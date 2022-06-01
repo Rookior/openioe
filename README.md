@@ -1,5 +1,5 @@
 <h1 align="center">
- <a href="http://www.openioe.net/" target="_blank">
+ <a href="http://www.openioe.net/">
     openIOE
   </a>
 </h1>
