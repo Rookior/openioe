@@ -10,6 +10,10 @@
     "name": "ZIYAN WEI"
   },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rookior/openioe.git"
+  },
   "keywords": [
     "OpenIOE 万物互联"
   ]
