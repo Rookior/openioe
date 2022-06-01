@@ -1,16 +1,16 @@
-function Openioe(name){ 
+function OpenIOE(name){ 
     this.name = name || "openIOE"; 
 } 
-Openioe.prototype = { 
-    constructor : Openioe, 
+OpenIOE.prototype = { 
+    constructor : OpenIOE, 
     hello : function(){ 	
 		  return "hello " + this.name;
     } 
 } 
 import { weather } from './lib/weather/weather';
 
-Openioe.prototype.weather = weather;
+OpenIOE.prototype.weather = weather;
 
-const openioe = new Openioe();
+const openioe = new OpenIOE();
 
 export default openioe;
