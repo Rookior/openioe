@@ -1,6 +1,6 @@
 {
   "name": "openioe",
-  "version": "1.0.38",
+  "version": "1.0.39",
   "description": "OpenIOE",
   "main": "index.js",
   "scripts": {
