@@ -2,9 +2,10 @@
   "name": "openioe",
   "version": "1.0.44",
   "description": "OpenIOE",
-  "main": "index.js",
+  "main": "dist/openioe.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup index.js --file dist/openioe.js"
   },
   "author": {
     "name": "ZIYAN WEI"
@@ -16,5 +17,8 @@
   },
   "keywords": [
     "OpenIOE 万物互联"
-  ]
+  ],
+  "devDependencies": {
+    "rollup": "^2.77.2"
+  }
 }
