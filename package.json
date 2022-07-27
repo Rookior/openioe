@@ -5,7 +5,8 @@
   "main": "dist/openioe.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup index.js --file dist/openioe.js"
+    "buildX": "rollup src/index.js --file dist/openioe.js",
+    "build": "rollup --config rollup.config.js"
   },
   "author": {
     "name": "ZIYAN WEI"
@@ -19,6 +20,10 @@
     "OpenIOE 万物互联"
   ],
   "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
     "rollup": "^2.77.2"
   }
 }
