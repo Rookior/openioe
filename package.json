@@ -1,6 +1,6 @@
 {
   "name": "openioe",
-  "version": "1.0.48",
+  "version": "1.0.49",
   "description": "OpenIOE",
   "main": "dist/openioe.js",
   "scripts": {
